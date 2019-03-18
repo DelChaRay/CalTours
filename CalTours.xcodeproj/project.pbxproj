@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		B7553D0C223F329900598C46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7553D0B223F329900598C46 /* AppDelegate.swift */; };
-		B7553D0E223F329900598C46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7553D0D223F329900598C46 /* ViewController.swift */; };
 		B7553D11223F329900598C46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7553D0F223F329900598C46 /* Main.storyboard */; };
 		B7553D13223F329B00598C46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7553D12223F329B00598C46 /* Assets.xcassets */; };
 		B7553D16223F329B00598C46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7553D14223F329B00598C46 /* LaunchScreen.storyboard */; };
+		B7553D1E223F46D100598C46 /* AttractionsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7553D1D223F46D100598C46 /* AttractionsPageViewController.swift */; };
+		B7553D20223F503A00598C46 /* AttractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7553D1F223F503A00598C46 /* AttractionViewController.swift */; };
+		B7553D24223F6B3300598C46 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B7553D23223F6B3300598C46 /* data.json */; };
+		B7553D26223F72A700598C46 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7553D25223F72A700598C46 /* Attraction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B7553D08223F329900598C46 /* CalTours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalTours.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7553D0B223F329900598C46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7553D0D223F329900598C46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7553D10223F329900598C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7553D12223F329B00598C46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7553D15223F329B00598C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7553D17223F329B00598C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7553D1D223F46D100598C46 /* AttractionsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionsPageViewController.swift; sourceTree = "<group>"; };
+		B7553D1F223F503A00598C46 /* AttractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionViewController.swift; sourceTree = "<group>"; };
+		B7553D23223F6B3300598C46 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		B7553D25223F72A700598C46 /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				B7553D0B223F329900598C46 /* AppDelegate.swift */,
-				B7553D0D223F329900598C46 /* ViewController.swift */,
 				B7553D0F223F329900598C46 /* Main.storyboard */,
+				B7553D1F223F503A00598C46 /* AttractionViewController.swift */,
+				B7553D1D223F46D100598C46 /* AttractionsPageViewController.swift */,
+				B7553D25223F72A700598C46 /* Attraction.swift */,
 				B7553D12223F329B00598C46 /* Assets.xcassets */,
 				B7553D14223F329B00598C46 /* LaunchScreen.storyboard */,
 				B7553D17223F329B00598C46 /* Info.plist */,
+				B7553D23223F6B3300598C46 /* data.json */,
 			);
 			path = CalTours;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 				B7553D16223F329B00598C46 /* LaunchScreen.storyboard in Resources */,
 				B7553D13223F329B00598C46 /* Assets.xcassets in Resources */,
 				B7553D11223F329900598C46 /* Main.storyboard in Resources */,
+				B7553D24223F6B3300598C46 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7553D0E223F329900598C46 /* ViewController.swift in Sources */,
+				B7553D26223F72A700598C46 /* Attraction.swift in Sources */,
+				B7553D1E223F46D100598C46 /* AttractionsPageViewController.swift in Sources */,
 				B7553D0C223F329900598C46 /* AppDelegate.swift in Sources */,
+				B7553D20223F503A00598C46 /* AttractionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
