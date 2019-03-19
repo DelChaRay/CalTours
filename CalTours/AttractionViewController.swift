@@ -25,7 +25,17 @@ class AttractionViewController: UIViewController {
     }
     
     func updateData() {
-        imgsrc.setImage(from: URL(string: (data?.imgsrc)!)!)
+        //imgsrc.setImage(from: URL(string: (data?.imgsrc)!)!)
+        if let path = Bundle.main.path(forResource: data!.title, ofType: "jpg") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                if let image = UIImage(data: data) {
+                    imgsrc.image = image
+                }
+            } catch {
+                print("Could not load " + data!.title!)
+            }
+        }
         titleLabel.text = data?.title
         descriptionLabel.text = data?.description
         numberLabel.text = String(currentPage)
