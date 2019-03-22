@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CalTours.xcodeproj">
+      location = "group:../CalTours/optimalList.json">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

@@ -13,7 +13,7 @@ class AttractionsPageViewController: UIPageViewController, UIPageViewControllerD
     var totalPages = 0
     var currentPage = 0
     var attractionsData: [Attraction]?
-    var attractionVC: AttractionViewController?
+    var attractionVCs: [AttractionViewController]?
     
     struct Attractions : Codable {
         let attractions: [Attraction]
@@ -29,7 +29,7 @@ class AttractionsPageViewController: UIPageViewController, UIPageViewControllerD
         // Do any additional setup after loading the view.
         self.dataSource = self
         
-        if let path = Bundle.main.path(forResource: "data", ofType: "json") {
+        if let path = Bundle.main.path(forResource: "optimalList", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 if let attractions = try? JSONDecoder().decode(Attractions.self, from: data) {
@@ -42,51 +42,70 @@ class AttractionsPageViewController: UIPageViewController, UIPageViewControllerD
             }
         }
         
-        let sb: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        attractionVC = (sb.instantiateViewController(withIdentifier: "attraction") as! AttractionViewController)
-        attractionVC!.data = attractionsData![0]
-        attractionVC!.currentPage = currentPage + 1
+        attractionVCs = setupAttractions()
+        setViewControllers([attractionVCs!.first!], direction: .forward, animated: true, completion: nil)
+    }
+    
+    func setupAttractions() -> [AttractionViewController] {
+        var attractions = [AttractionViewController]()
+
+        var currentPage = 0
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        var attractionVC: AttractionViewController!
         
-        setViewControllers([attractionVC!], direction: .forward, animated: true, completion: nil)
+        
+        for attraction in attractionsData! {
+            currentPage += 1
+            attractionVC = sb.instantiateViewController(withIdentifier: "attraction") as? AttractionViewController
+            var currentImage: UIImage?
+            
+            if let path = Bundle.main.path(forResource: attraction.title, ofType: "jpg") {
+                do {
+                    let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                    if let image = UIImage(data: data) {
+                        currentImage = image
+                    }
+                } catch {
+                    print("Could not load " + attraction.title!)
+                }
+            }
+            
+            attractionVC.img = currentImage
+            attractionVC.titleText = attraction.title
+            attractionVC.descriptionText = attraction.description
+            attractionVC.numberText = String(currentPage)
+            
+            attractions.append(attractionVC)
+        }
+        
+        return attractions
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
-        let previousPage = currentPage - 1
+        guard let vcIndex = attractionVCs?.firstIndex(of: viewController as! AttractionViewController) else {return nil}
         
-        guard previousPage >= 0 else {return nil}
+        let prevIndex = vcIndex - 1
         
-        currentPage = previousPage
+        guard prevIndex >= 0 else {return nil}
         
-        let sb = self.storyboard
-        let attractionVC = sb!.instantiateViewController(withIdentifier: "attraction") as! AttractionViewController
-        
-        let src = attractionsData![currentPage]
-        
-        attractionVC.data = src
-        attractionVC.currentPage = currentPage + 1
-        
-        return attractionVC
+        guard attractionVCs!.count > prevIndex else {return nil}
+
+        return attractionVCs![prevIndex]
         
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         
-        let nextPage = currentPage + 1
+        guard let vcIndex = attractionVCs?.firstIndex(of: viewController as! AttractionViewController) else {return nil}
         
-        guard nextPage < totalPages else {return nil}
+        let nextIndex = vcIndex + 1
         
-        currentPage = nextPage
+        guard attractionVCs!.count != nextIndex else {return nil}
         
-        let sb = self.storyboard
-        let attractionVC = sb!.instantiateViewController(withIdentifier: "attraction") as! AttractionViewController
+        guard attractionVCs!.count > nextIndex else {return nil}
         
-        let src = attractionsData![currentPage]
-        
-        attractionVC.data = src
-        attractionVC.currentPage = currentPage + 1
-        
-        return attractionVC
+        return attractionVCs![nextIndex]
     }
 
     /*

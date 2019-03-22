@@ -15,69 +15,101 @@
 		B7553D20223F503A00598C46 /* AttractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7553D1F223F503A00598C46 /* AttractionViewController.swift */; };
 		B7553D24223F6B3300598C46 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B7553D23223F6B3300598C46 /* data.json */; };
 		B7553D26223F72A700598C46 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7553D25223F72A700598C46 /* Attraction.swift */; };
-		B7553D6722401C9200598C46 /* Tupper and Reed Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D2822401C8C00598C46 /* Tupper and Reed Building.jpg */; };
-		B7553D6822401C9200598C46 /* Rasputin Music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D2922401C8C00598C46 /* Rasputin Music.jpg */; };
-		B7553D6922401C9200598C46 /* Haas Pavilion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D2A22401C8C00598C46 /* Haas Pavilion.jpg */; };
-		B7553D6A22401C9200598C46 /* Captain Charles C. Boudrow House.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D2B22401C8C00598C46 /* Captain Charles C. Boudrow House.jpg */; };
-		B7553D6B22401C9200598C46 /* Telegraph Avenue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D2C22401C8D00598C46 /* Telegraph Avenue.jpg */; };
-		B7553D6C22401C9200598C46 /* California Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D2D22401C8D00598C46 /* California Hall.jpg */; };
-		B7553D6D22401C9200598C46 /* Bowles Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D2E22401C8D00598C46 /* Bowles Hall.jpg */; };
-		B7553D6E22401C9200598C46 /* Berkeley Public Library.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D2F22401C8D00598C46 /* Berkeley Public Library.jpg */; };
-		B7553D6F22401C9200598C46 /* Gilman Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3022401C8D00598C46 /* Gilman Hall.jpg */; };
-		B7553D7022401C9200598C46 /* Bancroft Clothing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3122401C8D00598C46 /* Bancroft Clothing.jpg */; };
-		B7553D7122401C9200598C46 /* Moe's Books.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3222401C8D00598C46 /* Moe's Books.jpg */; };
-		B7553D7222401C9200598C46 /* Big Al's.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3322401C8D00598C46 /* Big Al's.jpg */; };
-		B7553D7322401C9200598C46 /* Golden Sheaf Bakery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3422401C8D00598C46 /* Golden Sheaf Bakery.jpg */; };
-		B7553D7422401C9200598C46 /* Jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3522401C8D00598C46 /* Jupiter.jpg */; };
-		B7553D7522401C9200598C46 /* Corder Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3622401C8D00598C46 /* Corder Building.jpg */; };
-		B7553D7622401C9200598C46 /* Triple Rock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3722401C8E00598C46 /* Triple Rock.jpg */; };
-		B7553D7722401C9200598C46 /* Phoebe Apperson Hearst Memorial Gymnasium for Women.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3822401C8E00598C46 /* Phoebe Apperson Hearst Memorial Gymnasium for Women.jpg */; };
-		B7553D7822401C9200598C46 /* Berkeley Community Theater.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3922401C8E00598C46 /* Berkeley Community Theater.jpg */; };
-		B7553D7922401C9200598C46 /* Alphonse Berber Gallery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3A22401C8E00598C46 /* Alphonse Berber Gallery.jpg */; };
-		B7553D7A22401C9200598C46 /* Civic Center Park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3B22401C8E00598C46 /* Civic Center Park.jpg */; };
-		B7553D7B22401C9200598C46 /* Hilgard Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3C22401C8E00598C46 /* Hilgard Hall.jpg */; };
-		B7553D7C22401C9200598C46 /* Rae Douglass Gallery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3D22401C8E00598C46 /* Rae Douglass Gallery.jpg */; };
-		B7553D7D22401C9200598C46 /* South Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3E22401C8E00598C46 /* South Hall.jpg */; };
-		B7553D7E22401C9200598C46 /* Berkeley Hat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D3F22401C8E00598C46 /* Berkeley Hat.jpg */; };
-		B7553D7F22401C9200598C46 /* Chamber of Commerce Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4022401C8E00598C46 /* Chamber of Commerce Building.jpg */; };
-		B7553D8022401C9200598C46 /* Bear Basics.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4122401C8E00598C46 /* Bear Basics.jpg */; };
-		B7553D8122401C9200598C46 /* North Gate Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4222401C8E00598C46 /* North Gate Hall.jpg */; };
-		B7553D8222401C9200598C46 /* Thorsen House.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4322401C8E00598C46 /* Thorsen House.jpg */; };
-		B7553D8322401C9200598C46 /* Amoeba Music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4422401C8E00598C46 /* Amoeba Music.jpg */; };
-		B7553D8422401C9200598C46 /* Kress Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4522401C8F00598C46 /* Kress Building.jpg */; };
-		B7553D8522401C9200598C46 /* Annapurna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4622401C8F00598C46 /* Annapurna.jpg */; };
-		B7553D8622401C9200598C46 /* Berkeley Art Center.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4722401C8F00598C46 /* Berkeley Art Center.jpg */; };
-		B7553D8722401C9200598C46 /* Normandy Village.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4822401C8F00598C46 /* Normandy Village.jpg */; };
-		B7553D8822401C9200598C46 /* Temple of Wings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4922401C8F00598C46 /* Temple of Wings.jpg */; };
-		B7553D8922401C9200598C46 /* Grace North Church.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4A22401C8F00598C46 /* Grace North Church.jpg */; };
-		B7553D8A22401C9200598C46 /* Old City Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4B22401C8F00598C46 /* Old City Hall.jpg */; };
-		B7553D8B22401C9200598C46 /* Haas School of Business.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4C22401C9000598C46 /* Haas School of Business.jpg */; };
-		B7553D8C22401C9200598C46 /* Masonic Temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4D22401C9000598C46 /* Masonic Temple.jpg */; };
-		B7553D8D22401C9200598C46 /* Sather Tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4E22401C9000598C46 /* Sather Tower.jpg */; };
-		B7553D8E22401C9200598C46 /* ACCI Gallery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D4F22401C9000598C46 /* ACCI Gallery.jpg */; };
-		B7553D8F22401C9200598C46 /* The Beta Lounge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5022401C9000598C46 /* The Beta Lounge.jpg */; };
-		B7553D9022401C9200598C46 /* Wheeler Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5122401C9000598C46 /* Wheeler Hall.jpg */; };
-		B7553D9122401C9200598C46 /* Phoebe A. Hearst Museum of Anthropology.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5222401C9000598C46 /* Phoebe A. Hearst Museum of Anthropology.jpg */; };
-		B7553D9222401C9200598C46 /* First Church of Christ, Scientist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5322401C9000598C46 /* First Church of Christ, Scientist.jpg */; };
-		B7553D9322401C9200598C46 /* Haviland Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5422401C9000598C46 /* Haviland Hall.jpg */; };
-		B7553D9422401C9200598C46 /* Cloyne Court Hotel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5522401C9000598C46 /* Cloyne Court Hotel.jpg */; };
-		B7553D9522401C9200598C46 /* Memorial Glade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5622401C9000598C46 /* Memorial Glade.jpg */; };
-		B7553D9622401C9200598C46 /* St. Joseph the Worker Church.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5722401C9100598C46 /* St. Joseph the Worker Church.jpg */; };
-		B7553D9722401C9200598C46 /* St. Mark's Episcopal Church.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5822401C9100598C46 /* St. Mark's Episcopal Church.jpg */; };
-		B7553D9822401C9200598C46 /* Hearst Memorial Mining Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5922401C9100598C46 /* Hearst Memorial Mining Building.jpg */; };
-		B7553D9922401C9200598C46 /* University of California Museum of Paleontology.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5A22401C9100598C46 /* University of California Museum of Paleontology.jpg */; };
-		B7553D9A22401C9200598C46 /* Veteran's Memorial Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5B22401C9100598C46 /* Veteran's Memorial Building.jpg */; };
-		B7553D9B22401C9200598C46 /* Wellman Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5C22401C9100598C46 /* Wellman Hall.jpg */; };
-		B7553D9C22401C9200598C46 /* Berkeley Art Museum and Pacific Film Archive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5D22401C9100598C46 /* Berkeley Art Museum and Pacific Film Archive.jpg */; };
-		B7553D9D22401C9200598C46 /* Eucalyptus Grove.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5E22401C9100598C46 /* Eucalyptus Grove.jpg */; };
-		B7553D9E22401C9200598C46 /* Berkeley City Club.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D5F22401C9100598C46 /* Berkeley City Club.jpg */; };
-		B7553D9F22401C9200598C46 /* University House.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D6022401C9100598C46 /* University House.jpg */; };
-		B7553DA022401C9200598C46 /* Founders' Rock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D6122401C9200598C46 /* Founders' Rock.jpg */; };
-		B7553DA122401C9200598C46 /* Studio Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D6222401C9200598C46 /* Studio Building.jpg */; };
-		B7553DA222401C9200598C46 /* First Unitarian Church.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D6322401C9200598C46 /* First Unitarian Church.jpg */; };
-		B7553DA322401C9200598C46 /* Hearst Greek Theatre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D6422401C9200598C46 /* Hearst Greek Theatre.jpg */; };
-		B7553DA422401C9200598C46 /* Doe Memorial Library.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D6522401C9200598C46 /* Doe Memorial Library.jpg */; };
-		B7553DA522401C9200598C46 /* Sather Gate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553D6622401C9200598C46 /* Sather Gate.jpg */; };
+		B7553E192244E1B600598C46 /* Chamber of Commerce Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DBB2244E1A800598C46 /* Chamber of Commerce Building.jpg */; };
+		B7553E1A2244E1B600598C46 /* Moffitt Library.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DBC2244E1A900598C46 /* Moffitt Library.jpg */; };
+		B7553E1B2244E1B600598C46 /* Leconte Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DBD2244E1A900598C46 /* Leconte Hall.jpg */; };
+		B7553E1C2244E1B600598C46 /* Berkeley Art Center.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DBE2244E1A900598C46 /* Berkeley Art Center.jpg */; };
+		B7553E1D2244E1B600598C46 /* Evans Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DBF2244E1A900598C46 /* Evans Hall.jpg */; };
+		B7553E1E2244E1B600598C46 /* Morgan Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DC02244E1A900598C46 /* Morgan Hall.jpg */; };
+		B7553E1F2244E1B600598C46 /* ACCI Gallery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DC12244E1A900598C46 /* ACCI Gallery.jpg */; };
+		B7553E202244E1B600598C46 /* Bear Basics.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DC22244E1A900598C46 /* Bear Basics.jpg */; };
+		B7553E212244E1B600598C46 /* Davis Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DC32244E1A900598C46 /* Davis Hall.jpg */; };
+		B7553E222244E1B600598C46 /* Main Stacks Library.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DC42244E1A900598C46 /* Main Stacks Library.jpg */; };
+		B7553E232244E1B600598C46 /* East Asian Library.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DC52244E1A900598C46 /* East Asian Library.jpg */; };
+		B7553E242244E1B600598C46 /* Sproul Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DC62244E1A900598C46 /* Sproul Hall.jpg */; };
+		B7553E252244E1B600598C46 /* Studio Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DC72244E1A900598C46 /* Studio Building.jpg */; };
+		B7553E262244E1B600598C46 /* Triple Rock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DC82244E1A900598C46 /* Triple Rock.jpg */; };
+		B7553E272244E1B600598C46 /* Sather Tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DC92244E1AA00598C46 /* Sather Tower.jpg */; };
+		B7553E282244E1B600598C46 /* University of California Museum of Paleontology.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DCA2244E1AA00598C46 /* University of California Museum of Paleontology.jpg */; };
+		B7553E292244E1B600598C46 /* Valley Life Sciences Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DCB2244E1AA00598C46 /* Valley Life Sciences Building.jpg */; };
+		B7553E2A2244E1B600598C46 /* Veteran's Memorial Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DCC2244E1AA00598C46 /* Veteran's Memorial Building.jpg */; };
+		B7553E2B2244E1B600598C46 /* Founders' Rock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DCD2244E1AA00598C46 /* Founders' Rock.jpg */; };
+		B7553E2C2244E1B600598C46 /* Hilgard Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DCE2244E1AA00598C46 /* Hilgard Hall.jpg */; };
+		B7553E2D2244E1B600598C46 /* Hearst Memorial Mining Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DCF2244E1AA00598C46 /* Hearst Memorial Mining Building.jpg */; };
+		B7553E2E2244E1B600598C46 /* Phoebe A. Hearst Museum of Anthropology.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DD02244E1AA00598C46 /* Phoebe A. Hearst Museum of Anthropology.jpg */; };
+		B7553E2F2244E1B600598C46 /* Crescent Lawn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DD12244E1AA00598C46 /* Crescent Lawn.jpg */; };
+		B7553E302244E1B600598C46 /* St. Mark's Episcopal Church.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DD22244E1AA00598C46 /* St. Mark's Episcopal Church.jpg */; };
+		B7553E312244E1B600598C46 /* Normandy Village.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DD32244E1AB00598C46 /* Normandy Village.jpg */; };
+		B7553E322244E1B600598C46 /* Sather Gate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DD42244E1AB00598C46 /* Sather Gate.jpg */; };
+		B7553E332244E1B600598C46 /* Hearst Greek Theatre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DD52244E1AB00598C46 /* Hearst Greek Theatre.jpg */; };
+		B7553E342244E1B600598C46 /* Cloyne Court Hotel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DD62244E1AB00598C46 /* Cloyne Court Hotel.jpg */; };
+		B7553E352244E1B600598C46 /* Soda Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DD72244E1AB00598C46 /* Soda Hall.jpg */; };
+		B7553E362244E1B600598C46 /* University Seal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DD82244E1AB00598C46 /* University Seal.jpg */; };
+		B7553E372244E1B600598C46 /* Annapurna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DD92244E1AB00598C46 /* Annapurna.jpg */; };
+		B7553E382244E1B600598C46 /* Cory Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DDA2244E1AC00598C46 /* Cory Hall.jpg */; };
+		B7553E392244E1B600598C46 /* Bowles Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DDB2244E1AC00598C46 /* Bowles Hall.jpg */; };
+		B7553E3A2244E1B600598C46 /* VLSB Echo Bench.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DDC2244E1AC00598C46 /* VLSB Echo Bench.jpg */; };
+		B7553E3B2244E1B600598C46 /* Captain Charles C. Boudrow House.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DDD2244E1AC00598C46 /* Captain Charles C. Boudrow House.jpg */; };
+		B7553E3C2244E1B600598C46 /* Memorial Glade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DDE2244E1AC00598C46 /* Memorial Glade.jpg */; };
+		B7553E3D2244E1B600598C46 /* Hearst Mining Circle Sculpture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DDF2244E1AC00598C46 /* Hearst Mining Circle Sculpture.jpg */; };
+		B7553E3E2244E1B600598C46 /* Berkeley Law.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DE02244E1AC00598C46 /* Berkeley Law.jpg */; };
+		B7553E3F2244E1B600598C46 /* Berkeley City Club.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DE12244E1AC00598C46 /* Berkeley City Club.jpg */; };
+		B7553E402244E1B600598C46 /* Masonic Temple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DE22244E1AC00598C46 /* Masonic Temple.jpg */; };
+		B7553E412244E1B600598C46 /* Gilman Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DE32244E1AD00598C46 /* Gilman Hall.jpg */; };
+		B7553E422244E1B600598C46 /* Civic Center Park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DE42244E1AD00598C46 /* Civic Center Park.jpg */; };
+		B7553E432244E1B600598C46 /* Haas Pavilion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DE52244E1AD00598C46 /* Haas Pavilion.jpg */; };
+		B7553E442244E1B600598C46 /* Berkeley Community Theater.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DE62244E1AD00598C46 /* Berkeley Community Theater.jpg */; };
+		B7553E452244E1B600598C46 /* St. Joseph the Worker Church.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DE72244E1AD00598C46 /* St. Joseph the Worker Church.jpg */; };
+		B7553E462244E1B600598C46 /* Department of Environmental Science.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DE82244E1AD00598C46 /* Department of Environmental Science.jpg */; };
+		B7553E472244E1B600598C46 /* First Church of Christ, Scientist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DE92244E1AD00598C46 /* First Church of Christ, Scientist.jpg */; };
+		B7553E482244E1B600598C46 /* Alphonse Berber Gallery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DEA2244E1AE00598C46 /* Alphonse Berber Gallery.jpg */; };
+		B7553E492244E1B600598C46 /* Browns California Cafe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DEB2244E1AE00598C46 /* Browns California Cafe.jpg */; };
+		B7553E4A2244E1B600598C46 /* Moe's Books.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DEC2244E1AE00598C46 /* Moe's Books.jpg */; };
+		B7553E4B2244E1B600598C46 /* Golden Sheaf Bakery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DED2244E1AE00598C46 /* Golden Sheaf Bakery.jpg */; };
+		B7553E4C2244E1B600598C46 /* Doe Memorial Library.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DEE2244E1AE00598C46 /* Doe Memorial Library.jpg */; };
+		B7553E4D2244E1B600598C46 /* South Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DEF2244E1AF00598C46 /* South Hall.jpg */; };
+		B7553E4E2244E1B600598C46 /* Westside Downtown Berkeley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DF02244E1AF00598C46 /* Westside Downtown Berkeley.jpg */; };
+		B7553E4F2244E1B600598C46 /* North Gate Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DF12244E1AF00598C46 /* North Gate Hall.jpg */; };
+		B7553E502244E1B600598C46 /* Wellman Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DF22244E1AF00598C46 /* Wellman Hall.jpg */; };
+		B7553E512244E1B600598C46 /* Berkeley Hat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DF32244E1B000598C46 /* Berkeley Hat.jpg */; };
+		B7553E522244E1B600598C46 /* Grace North Church.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DF42244E1B000598C46 /* Grace North Church.jpg */; };
+		B7553E532244E1B600598C46 /* College of Environmental Design.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DF52244E1B000598C46 /* College of Environmental Design.jpg */; };
+		B7553E542244E1B600598C46 /* Sutardja Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DF62244E1B000598C46 /* Sutardja Hall.jpg */; };
+		B7553E552244E1B600598C46 /* Jacobs Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DF72244E1B000598C46 /* Jacobs Hall.jpg */; };
+		B7553E562244E1B600598C46 /* California Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DF82244E1B000598C46 /* California Hall.jpg */; };
+		B7553E572244E1B600598C46 /* First Unitarian Church.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DF92244E1B000598C46 /* First Unitarian Church.jpg */; };
+		B7553E582244E1B600598C46 /* University House.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DFA2244E1B100598C46 /* University House.jpg */; };
+		B7553E592244E1B600598C46 /* Berkeley Public Library.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DFB2244E1B100598C46 /* Berkeley Public Library.jpg */; };
+		B7553E5A2244E1B600598C46 /* Engineering Student Services.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DFC2244E1B100598C46 /* Engineering Student Services.jpg */; };
+		B7553E5B2244E1B600598C46 /* Jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DFD2244E1B100598C46 /* Jupiter.jpg */; };
+		B7553E5C2244E1B600598C46 /* Haas School of Business.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DFE2244E1B100598C46 /* Haas School of Business.jpg */; };
+		B7553E5D2244E1B600598C46 /* Li Ka Shing Center.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553DFF2244E1B200598C46 /* Li Ka Shing Center.jpg */; };
+		B7553E5E2244E1B600598C46 /* North Gate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E002244E1B200598C46 /* North Gate.jpg */; };
+		B7553E5F2244E1B600598C46 /* Phoebe Apperson Hearst Memorial Gymnasium for Women.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E012244E1B200598C46 /* Phoebe Apperson Hearst Memorial Gymnasium for Women.jpg */; };
+		B7553E602244E1B600598C46 /* Rae Douglass Gallery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E022244E1B200598C46 /* Rae Douglass Gallery.jpg */; };
+		B7553E612244E1B600598C46 /* Rasputin Music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E032244E1B300598C46 /* Rasputin Music.jpg */; };
+		B7553E622244E1B600598C46 /* Temple of Wings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E042244E1B300598C46 /* Temple of Wings.jpg */; };
+		B7553E632244E1B600598C46 /* Dwinelle Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E052244E1B300598C46 /* Dwinelle Hall.jpg */; };
+		B7553E642244E1B600598C46 /* Haviland Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E062244E1B300598C46 /* Haviland Hall.jpg */; };
+		B7553E652244E1B600598C46 /* Eucalyptus Grove.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E072244E1B300598C46 /* Eucalyptus Grove.jpg */; };
+		B7553E662244E1B600598C46 /* Old City Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E082244E1B400598C46 /* Old City Hall.jpg */; };
+		B7553E672244E1B600598C46 /* Corder Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E092244E1B400598C46 /* Corder Building.jpg */; };
+		B7553E682244E1B600598C46 /* Bancroft Clothing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E0A2244E1B400598C46 /* Bancroft Clothing.jpg */; };
+		B7553E692244E1B600598C46 /* Amoeba Music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E0B2244E1B400598C46 /* Amoeba Music.jpg */; };
+		B7553E6A2244E1B600598C46 /* Big Al's.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E0C2244E1B400598C46 /* Big Al's.jpg */; };
+		B7553E6B2244E1B600598C46 /* Berkeley Art Museum and Pacific Film Archive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E0D2244E1B400598C46 /* Berkeley Art Museum and Pacific Film Archive.jpg */; };
+		B7553E6C2244E1B600598C46 /* College of Chemistry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E0E2244E1B500598C46 /* College of Chemistry.jpg */; };
+		B7553E6D2244E1B600598C46 /* The Beta Lounge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E0F2244E1B500598C46 /* The Beta Lounge.jpg */; };
+		B7553E6E2244E1B600598C46 /* Wheeler Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E102244E1B500598C46 /* Wheeler Hall.jpg */; };
+		B7553E6F2244E1B600598C46 /* Amazon Center.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E112244E1B500598C46 /* Amazon Center.jpg */; };
+		B7553E702244E1B600598C46 /* Thorsen House.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E122244E1B500598C46 /* Thorsen House.jpg */; };
+		B7553E712244E1B600598C46 /* Pimental Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E132244E1B500598C46 /* Pimental Hall.jpg */; };
+		B7553E722244E1B600598C46 /* Northside Euclid Ave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E142244E1B500598C46 /* Northside Euclid Ave.jpg */; };
+		B7553E732244E1B600598C46 /* Stanley Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E152244E1B500598C46 /* Stanley Hall.jpg */; };
+		B7553E742244E1B600598C46 /* Kress Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E162244E1B600598C46 /* Kress Building.jpg */; };
+		B7553E752244E1B600598C46 /* Telegraph Avenue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E172244E1B600598C46 /* Telegraph Avenue.jpg */; };
+		B7553E762244E1B600598C46 /* Tupper and Reed Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7553E182244E1B600598C46 /* Tupper and Reed Building.jpg */; };
+		B7553E782244E20000598C46 /* optimalList.json in Resources */ = {isa = PBXBuildFile; fileRef = B7553E772244E20000598C46 /* optimalList.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,69 +123,101 @@
 		B7553D1F223F503A00598C46 /* AttractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionViewController.swift; sourceTree = "<group>"; };
 		B7553D23223F6B3300598C46 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		B7553D25223F72A700598C46 /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
-		B7553D2822401C8C00598C46 /* Tupper and Reed Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tupper and Reed Building.jpg"; sourceTree = "<group>"; };
-		B7553D2922401C8C00598C46 /* Rasputin Music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rasputin Music.jpg"; sourceTree = "<group>"; };
-		B7553D2A22401C8C00598C46 /* Haas Pavilion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Haas Pavilion.jpg"; sourceTree = "<group>"; };
-		B7553D2B22401C8C00598C46 /* Captain Charles C. Boudrow House.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Captain Charles C. Boudrow House.jpg"; sourceTree = "<group>"; };
-		B7553D2C22401C8D00598C46 /* Telegraph Avenue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Telegraph Avenue.jpg"; sourceTree = "<group>"; };
-		B7553D2D22401C8D00598C46 /* California Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "California Hall.jpg"; sourceTree = "<group>"; };
-		B7553D2E22401C8D00598C46 /* Bowles Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bowles Hall.jpg"; sourceTree = "<group>"; };
-		B7553D2F22401C8D00598C46 /* Berkeley Public Library.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Berkeley Public Library.jpg"; sourceTree = "<group>"; };
-		B7553D3022401C8D00598C46 /* Gilman Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gilman Hall.jpg"; sourceTree = "<group>"; };
-		B7553D3122401C8D00598C46 /* Bancroft Clothing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bancroft Clothing.jpg"; sourceTree = "<group>"; };
-		B7553D3222401C8D00598C46 /* Moe's Books.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Moe's Books.jpg"; sourceTree = "<group>"; };
-		B7553D3322401C8D00598C46 /* Big Al's.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Big Al's.jpg"; sourceTree = "<group>"; };
-		B7553D3422401C8D00598C46 /* Golden Sheaf Bakery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Golden Sheaf Bakery.jpg"; sourceTree = "<group>"; };
-		B7553D3522401C8D00598C46 /* Jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jupiter.jpg; sourceTree = "<group>"; };
-		B7553D3622401C8D00598C46 /* Corder Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Corder Building.jpg"; sourceTree = "<group>"; };
-		B7553D3722401C8E00598C46 /* Triple Rock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Triple Rock.jpg"; sourceTree = "<group>"; };
-		B7553D3822401C8E00598C46 /* Phoebe Apperson Hearst Memorial Gymnasium for Women.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phoebe Apperson Hearst Memorial Gymnasium for Women.jpg"; sourceTree = "<group>"; };
-		B7553D3922401C8E00598C46 /* Berkeley Community Theater.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Berkeley Community Theater.jpg"; sourceTree = "<group>"; };
-		B7553D3A22401C8E00598C46 /* Alphonse Berber Gallery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alphonse Berber Gallery.jpg"; sourceTree = "<group>"; };
-		B7553D3B22401C8E00598C46 /* Civic Center Park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Civic Center Park.jpg"; sourceTree = "<group>"; };
-		B7553D3C22401C8E00598C46 /* Hilgard Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hilgard Hall.jpg"; sourceTree = "<group>"; };
-		B7553D3D22401C8E00598C46 /* Rae Douglass Gallery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rae Douglass Gallery.jpg"; sourceTree = "<group>"; };
-		B7553D3E22401C8E00598C46 /* South Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "South Hall.jpg"; sourceTree = "<group>"; };
-		B7553D3F22401C8E00598C46 /* Berkeley Hat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Berkeley Hat.jpg"; sourceTree = "<group>"; };
-		B7553D4022401C8E00598C46 /* Chamber of Commerce Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chamber of Commerce Building.jpg"; sourceTree = "<group>"; };
-		B7553D4122401C8E00598C46 /* Bear Basics.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bear Basics.jpg"; sourceTree = "<group>"; };
-		B7553D4222401C8E00598C46 /* North Gate Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "North Gate Hall.jpg"; sourceTree = "<group>"; };
-		B7553D4322401C8E00598C46 /* Thorsen House.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thorsen House.jpg"; sourceTree = "<group>"; };
-		B7553D4422401C8E00598C46 /* Amoeba Music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amoeba Music.jpg"; sourceTree = "<group>"; };
-		B7553D4522401C8F00598C46 /* Kress Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kress Building.jpg"; sourceTree = "<group>"; };
-		B7553D4622401C8F00598C46 /* Annapurna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Annapurna.jpg; sourceTree = "<group>"; };
-		B7553D4722401C8F00598C46 /* Berkeley Art Center.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Berkeley Art Center.jpg"; sourceTree = "<group>"; };
-		B7553D4822401C8F00598C46 /* Normandy Village.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Normandy Village.jpg"; sourceTree = "<group>"; };
-		B7553D4922401C8F00598C46 /* Temple of Wings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Temple of Wings.jpg"; sourceTree = "<group>"; };
-		B7553D4A22401C8F00598C46 /* Grace North Church.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grace North Church.jpg"; sourceTree = "<group>"; };
-		B7553D4B22401C8F00598C46 /* Old City Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Old City Hall.jpg"; sourceTree = "<group>"; };
-		B7553D4C22401C9000598C46 /* Haas School of Business.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Haas School of Business.jpg"; sourceTree = "<group>"; };
-		B7553D4D22401C9000598C46 /* Masonic Temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Masonic Temple.jpg"; sourceTree = "<group>"; };
-		B7553D4E22401C9000598C46 /* Sather Tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sather Tower.jpg"; sourceTree = "<group>"; };
-		B7553D4F22401C9000598C46 /* ACCI Gallery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ACCI Gallery.jpg"; sourceTree = "<group>"; };
-		B7553D5022401C9000598C46 /* The Beta Lounge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Beta Lounge.jpg"; sourceTree = "<group>"; };
-		B7553D5122401C9000598C46 /* Wheeler Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wheeler Hall.jpg"; sourceTree = "<group>"; };
-		B7553D5222401C9000598C46 /* Phoebe A. Hearst Museum of Anthropology.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phoebe A. Hearst Museum of Anthropology.jpg"; sourceTree = "<group>"; };
-		B7553D5322401C9000598C46 /* First Church of Christ, Scientist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "First Church of Christ, Scientist.jpg"; sourceTree = "<group>"; };
-		B7553D5422401C9000598C46 /* Haviland Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Haviland Hall.jpg"; sourceTree = "<group>"; };
-		B7553D5522401C9000598C46 /* Cloyne Court Hotel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cloyne Court Hotel.jpg"; sourceTree = "<group>"; };
-		B7553D5622401C9000598C46 /* Memorial Glade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Memorial Glade.jpg"; sourceTree = "<group>"; };
-		B7553D5722401C9100598C46 /* St. Joseph the Worker Church.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "St. Joseph the Worker Church.jpg"; sourceTree = "<group>"; };
-		B7553D5822401C9100598C46 /* St. Mark's Episcopal Church.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "St. Mark's Episcopal Church.jpg"; sourceTree = "<group>"; };
-		B7553D5922401C9100598C46 /* Hearst Memorial Mining Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hearst Memorial Mining Building.jpg"; sourceTree = "<group>"; };
-		B7553D5A22401C9100598C46 /* University of California Museum of Paleontology.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "University of California Museum of Paleontology.jpg"; sourceTree = "<group>"; };
-		B7553D5B22401C9100598C46 /* Veteran's Memorial Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Veteran's Memorial Building.jpg"; sourceTree = "<group>"; };
-		B7553D5C22401C9100598C46 /* Wellman Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wellman Hall.jpg"; sourceTree = "<group>"; };
-		B7553D5D22401C9100598C46 /* Berkeley Art Museum and Pacific Film Archive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Berkeley Art Museum and Pacific Film Archive.jpg"; sourceTree = "<group>"; };
-		B7553D5E22401C9100598C46 /* Eucalyptus Grove.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eucalyptus Grove.jpg"; sourceTree = "<group>"; };
-		B7553D5F22401C9100598C46 /* Berkeley City Club.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Berkeley City Club.jpg"; sourceTree = "<group>"; };
-		B7553D6022401C9100598C46 /* University House.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "University House.jpg"; sourceTree = "<group>"; };
-		B7553D6122401C9200598C46 /* Founders' Rock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Founders' Rock.jpg"; sourceTree = "<group>"; };
-		B7553D6222401C9200598C46 /* Studio Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Studio Building.jpg"; sourceTree = "<group>"; };
-		B7553D6322401C9200598C46 /* First Unitarian Church.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "First Unitarian Church.jpg"; sourceTree = "<group>"; };
-		B7553D6422401C9200598C46 /* Hearst Greek Theatre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hearst Greek Theatre.jpg"; sourceTree = "<group>"; };
-		B7553D6522401C9200598C46 /* Doe Memorial Library.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Doe Memorial Library.jpg"; sourceTree = "<group>"; };
-		B7553D6622401C9200598C46 /* Sather Gate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sather Gate.jpg"; sourceTree = "<group>"; };
+		B7553DBB2244E1A800598C46 /* Chamber of Commerce Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chamber of Commerce Building.jpg"; sourceTree = "<group>"; };
+		B7553DBC2244E1A900598C46 /* Moffitt Library.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Moffitt Library.jpg"; sourceTree = "<group>"; };
+		B7553DBD2244E1A900598C46 /* Leconte Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Leconte Hall.jpg"; sourceTree = "<group>"; };
+		B7553DBE2244E1A900598C46 /* Berkeley Art Center.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Berkeley Art Center.jpg"; sourceTree = "<group>"; };
+		B7553DBF2244E1A900598C46 /* Evans Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Evans Hall.jpg"; sourceTree = "<group>"; };
+		B7553DC02244E1A900598C46 /* Morgan Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Morgan Hall.jpg"; sourceTree = "<group>"; };
+		B7553DC12244E1A900598C46 /* ACCI Gallery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ACCI Gallery.jpg"; sourceTree = "<group>"; };
+		B7553DC22244E1A900598C46 /* Bear Basics.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bear Basics.jpg"; sourceTree = "<group>"; };
+		B7553DC32244E1A900598C46 /* Davis Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Davis Hall.jpg"; sourceTree = "<group>"; };
+		B7553DC42244E1A900598C46 /* Main Stacks Library.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Main Stacks Library.jpg"; sourceTree = "<group>"; };
+		B7553DC52244E1A900598C46 /* East Asian Library.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "East Asian Library.jpg"; sourceTree = "<group>"; };
+		B7553DC62244E1A900598C46 /* Sproul Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sproul Hall.jpg"; sourceTree = "<group>"; };
+		B7553DC72244E1A900598C46 /* Studio Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Studio Building.jpg"; sourceTree = "<group>"; };
+		B7553DC82244E1A900598C46 /* Triple Rock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Triple Rock.jpg"; sourceTree = "<group>"; };
+		B7553DC92244E1AA00598C46 /* Sather Tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sather Tower.jpg"; sourceTree = "<group>"; };
+		B7553DCA2244E1AA00598C46 /* University of California Museum of Paleontology.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "University of California Museum of Paleontology.jpg"; sourceTree = "<group>"; };
+		B7553DCB2244E1AA00598C46 /* Valley Life Sciences Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Valley Life Sciences Building.jpg"; sourceTree = "<group>"; };
+		B7553DCC2244E1AA00598C46 /* Veteran's Memorial Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Veteran's Memorial Building.jpg"; sourceTree = "<group>"; };
+		B7553DCD2244E1AA00598C46 /* Founders' Rock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Founders' Rock.jpg"; sourceTree = "<group>"; };
+		B7553DCE2244E1AA00598C46 /* Hilgard Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hilgard Hall.jpg"; sourceTree = "<group>"; };
+		B7553DCF2244E1AA00598C46 /* Hearst Memorial Mining Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hearst Memorial Mining Building.jpg"; sourceTree = "<group>"; };
+		B7553DD02244E1AA00598C46 /* Phoebe A. Hearst Museum of Anthropology.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phoebe A. Hearst Museum of Anthropology.jpg"; sourceTree = "<group>"; };
+		B7553DD12244E1AA00598C46 /* Crescent Lawn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crescent Lawn.jpg"; sourceTree = "<group>"; };
+		B7553DD22244E1AA00598C46 /* St. Mark's Episcopal Church.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "St. Mark's Episcopal Church.jpg"; sourceTree = "<group>"; };
+		B7553DD32244E1AB00598C46 /* Normandy Village.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Normandy Village.jpg"; sourceTree = "<group>"; };
+		B7553DD42244E1AB00598C46 /* Sather Gate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sather Gate.jpg"; sourceTree = "<group>"; };
+		B7553DD52244E1AB00598C46 /* Hearst Greek Theatre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hearst Greek Theatre.jpg"; sourceTree = "<group>"; };
+		B7553DD62244E1AB00598C46 /* Cloyne Court Hotel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cloyne Court Hotel.jpg"; sourceTree = "<group>"; };
+		B7553DD72244E1AB00598C46 /* Soda Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Soda Hall.jpg"; sourceTree = "<group>"; };
+		B7553DD82244E1AB00598C46 /* University Seal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "University Seal.jpg"; sourceTree = "<group>"; };
+		B7553DD92244E1AB00598C46 /* Annapurna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Annapurna.jpg; sourceTree = "<group>"; };
+		B7553DDA2244E1AC00598C46 /* Cory Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cory Hall.jpg"; sourceTree = "<group>"; };
+		B7553DDB2244E1AC00598C46 /* Bowles Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bowles Hall.jpg"; sourceTree = "<group>"; };
+		B7553DDC2244E1AC00598C46 /* VLSB Echo Bench.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "VLSB Echo Bench.jpg"; sourceTree = "<group>"; };
+		B7553DDD2244E1AC00598C46 /* Captain Charles C. Boudrow House.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Captain Charles C. Boudrow House.jpg"; sourceTree = "<group>"; };
+		B7553DDE2244E1AC00598C46 /* Memorial Glade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Memorial Glade.jpg"; sourceTree = "<group>"; };
+		B7553DDF2244E1AC00598C46 /* Hearst Mining Circle Sculpture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hearst Mining Circle Sculpture.jpg"; sourceTree = "<group>"; };
+		B7553DE02244E1AC00598C46 /* Berkeley Law.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Berkeley Law.jpg"; sourceTree = "<group>"; };
+		B7553DE12244E1AC00598C46 /* Berkeley City Club.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Berkeley City Club.jpg"; sourceTree = "<group>"; };
+		B7553DE22244E1AC00598C46 /* Masonic Temple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Masonic Temple.jpg"; sourceTree = "<group>"; };
+		B7553DE32244E1AD00598C46 /* Gilman Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gilman Hall.jpg"; sourceTree = "<group>"; };
+		B7553DE42244E1AD00598C46 /* Civic Center Park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Civic Center Park.jpg"; sourceTree = "<group>"; };
+		B7553DE52244E1AD00598C46 /* Haas Pavilion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Haas Pavilion.jpg"; sourceTree = "<group>"; };
+		B7553DE62244E1AD00598C46 /* Berkeley Community Theater.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Berkeley Community Theater.jpg"; sourceTree = "<group>"; };
+		B7553DE72244E1AD00598C46 /* St. Joseph the Worker Church.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "St. Joseph the Worker Church.jpg"; sourceTree = "<group>"; };
+		B7553DE82244E1AD00598C46 /* Department of Environmental Science.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Department of Environmental Science.jpg"; sourceTree = "<group>"; };
+		B7553DE92244E1AD00598C46 /* First Church of Christ, Scientist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "First Church of Christ, Scientist.jpg"; sourceTree = "<group>"; };
+		B7553DEA2244E1AE00598C46 /* Alphonse Berber Gallery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alphonse Berber Gallery.jpg"; sourceTree = "<group>"; };
+		B7553DEB2244E1AE00598C46 /* Browns California Cafe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Browns California Cafe.jpg"; sourceTree = "<group>"; };
+		B7553DEC2244E1AE00598C46 /* Moe's Books.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Moe's Books.jpg"; sourceTree = "<group>"; };
+		B7553DED2244E1AE00598C46 /* Golden Sheaf Bakery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Golden Sheaf Bakery.jpg"; sourceTree = "<group>"; };
+		B7553DEE2244E1AE00598C46 /* Doe Memorial Library.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Doe Memorial Library.jpg"; sourceTree = "<group>"; };
+		B7553DEF2244E1AF00598C46 /* South Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "South Hall.jpg"; sourceTree = "<group>"; };
+		B7553DF02244E1AF00598C46 /* Westside Downtown Berkeley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Westside Downtown Berkeley.jpg"; sourceTree = "<group>"; };
+		B7553DF12244E1AF00598C46 /* North Gate Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "North Gate Hall.jpg"; sourceTree = "<group>"; };
+		B7553DF22244E1AF00598C46 /* Wellman Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wellman Hall.jpg"; sourceTree = "<group>"; };
+		B7553DF32244E1B000598C46 /* Berkeley Hat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Berkeley Hat.jpg"; sourceTree = "<group>"; };
+		B7553DF42244E1B000598C46 /* Grace North Church.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grace North Church.jpg"; sourceTree = "<group>"; };
+		B7553DF52244E1B000598C46 /* College of Environmental Design.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "College of Environmental Design.jpg"; sourceTree = "<group>"; };
+		B7553DF62244E1B000598C46 /* Sutardja Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sutardja Hall.jpg"; sourceTree = "<group>"; };
+		B7553DF72244E1B000598C46 /* Jacobs Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jacobs Hall.jpg"; sourceTree = "<group>"; };
+		B7553DF82244E1B000598C46 /* California Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "California Hall.jpg"; sourceTree = "<group>"; };
+		B7553DF92244E1B000598C46 /* First Unitarian Church.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "First Unitarian Church.jpg"; sourceTree = "<group>"; };
+		B7553DFA2244E1B100598C46 /* University House.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "University House.jpg"; sourceTree = "<group>"; };
+		B7553DFB2244E1B100598C46 /* Berkeley Public Library.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Berkeley Public Library.jpg"; sourceTree = "<group>"; };
+		B7553DFC2244E1B100598C46 /* Engineering Student Services.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Engineering Student Services.jpg"; sourceTree = "<group>"; };
+		B7553DFD2244E1B100598C46 /* Jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jupiter.jpg; sourceTree = "<group>"; };
+		B7553DFE2244E1B100598C46 /* Haas School of Business.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Haas School of Business.jpg"; sourceTree = "<group>"; };
+		B7553DFF2244E1B200598C46 /* Li Ka Shing Center.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Li Ka Shing Center.jpg"; sourceTree = "<group>"; };
+		B7553E002244E1B200598C46 /* North Gate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "North Gate.jpg"; sourceTree = "<group>"; };
+		B7553E012244E1B200598C46 /* Phoebe Apperson Hearst Memorial Gymnasium for Women.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phoebe Apperson Hearst Memorial Gymnasium for Women.jpg"; sourceTree = "<group>"; };
+		B7553E022244E1B200598C46 /* Rae Douglass Gallery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rae Douglass Gallery.jpg"; sourceTree = "<group>"; };
+		B7553E032244E1B300598C46 /* Rasputin Music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rasputin Music.jpg"; sourceTree = "<group>"; };
+		B7553E042244E1B300598C46 /* Temple of Wings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Temple of Wings.jpg"; sourceTree = "<group>"; };
+		B7553E052244E1B300598C46 /* Dwinelle Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dwinelle Hall.jpg"; sourceTree = "<group>"; };
+		B7553E062244E1B300598C46 /* Haviland Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Haviland Hall.jpg"; sourceTree = "<group>"; };
+		B7553E072244E1B300598C46 /* Eucalyptus Grove.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eucalyptus Grove.jpg"; sourceTree = "<group>"; };
+		B7553E082244E1B400598C46 /* Old City Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Old City Hall.jpg"; sourceTree = "<group>"; };
+		B7553E092244E1B400598C46 /* Corder Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Corder Building.jpg"; sourceTree = "<group>"; };
+		B7553E0A2244E1B400598C46 /* Bancroft Clothing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bancroft Clothing.jpg"; sourceTree = "<group>"; };
+		B7553E0B2244E1B400598C46 /* Amoeba Music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amoeba Music.jpg"; sourceTree = "<group>"; };
+		B7553E0C2244E1B400598C46 /* Big Al's.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Big Al's.jpg"; sourceTree = "<group>"; };
+		B7553E0D2244E1B400598C46 /* Berkeley Art Museum and Pacific Film Archive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Berkeley Art Museum and Pacific Film Archive.jpg"; sourceTree = "<group>"; };
+		B7553E0E2244E1B500598C46 /* College of Chemistry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "College of Chemistry.jpg"; sourceTree = "<group>"; };
+		B7553E0F2244E1B500598C46 /* The Beta Lounge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Beta Lounge.jpg"; sourceTree = "<group>"; };
+		B7553E102244E1B500598C46 /* Wheeler Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wheeler Hall.jpg"; sourceTree = "<group>"; };
+		B7553E112244E1B500598C46 /* Amazon Center.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Amazon Center.jpg"; sourceTree = "<group>"; };
+		B7553E122244E1B500598C46 /* Thorsen House.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thorsen House.jpg"; sourceTree = "<group>"; };
+		B7553E132244E1B500598C46 /* Pimental Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pimental Hall.jpg"; sourceTree = "<group>"; };
+		B7553E142244E1B500598C46 /* Northside Euclid Ave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Northside Euclid Ave.jpg"; sourceTree = "<group>"; };
+		B7553E152244E1B500598C46 /* Stanley Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stanley Hall.jpg"; sourceTree = "<group>"; };
+		B7553E162244E1B600598C46 /* Kress Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kress Building.jpg"; sourceTree = "<group>"; };
+		B7553E172244E1B600598C46 /* Telegraph Avenue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Telegraph Avenue.jpg"; sourceTree = "<group>"; };
+		B7553E182244E1B600598C46 /* Tupper and Reed Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tupper and Reed Building.jpg"; sourceTree = "<group>"; };
+		B7553E772244E20000598C46 /* optimalList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = optimalList.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +250,8 @@
 		B7553D0A223F329900598C46 /* CalTours */ = {
 			isa = PBXGroup;
 			children = (
+				B7553E772244E20000598C46 /* optimalList.json */,
+				B7553DBA2244E15100598C46 /* imgs */,
 				B7553D0B223F329900598C46 /* AppDelegate.swift */,
 				B7553D0F223F329900598C46 /* Main.storyboard */,
 				B7553D1F223F503A00598C46 /* AttractionViewController.swift */,
@@ -195,77 +261,107 @@
 				B7553D14223F329B00598C46 /* LaunchScreen.storyboard */,
 				B7553D17223F329B00598C46 /* Info.plist */,
 				B7553D23223F6B3300598C46 /* data.json */,
-				B7553D2722401AE000598C46 /* imgs */,
 			);
 			path = CalTours;
 			sourceTree = "<group>";
 		};
-		B7553D2722401AE000598C46 /* imgs */ = {
+		B7553DBA2244E15100598C46 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
-				B7553D4F22401C9000598C46 /* ACCI Gallery.jpg */,
-				B7553D3A22401C8E00598C46 /* Alphonse Berber Gallery.jpg */,
-				B7553D4422401C8E00598C46 /* Amoeba Music.jpg */,
-				B7553D4622401C8F00598C46 /* Annapurna.jpg */,
-				B7553D3122401C8D00598C46 /* Bancroft Clothing.jpg */,
-				B7553D4122401C8E00598C46 /* Bear Basics.jpg */,
-				B7553D4722401C8F00598C46 /* Berkeley Art Center.jpg */,
-				B7553D5D22401C9100598C46 /* Berkeley Art Museum and Pacific Film Archive.jpg */,
-				B7553D5F22401C9100598C46 /* Berkeley City Club.jpg */,
-				B7553D3922401C8E00598C46 /* Berkeley Community Theater.jpg */,
-				B7553D3F22401C8E00598C46 /* Berkeley Hat.jpg */,
-				B7553D2F22401C8D00598C46 /* Berkeley Public Library.jpg */,
-				B7553D3322401C8D00598C46 /* Big Al's.jpg */,
-				B7553D2E22401C8D00598C46 /* Bowles Hall.jpg */,
-				B7553D2D22401C8D00598C46 /* California Hall.jpg */,
-				B7553D2B22401C8C00598C46 /* Captain Charles C. Boudrow House.jpg */,
-				B7553D4022401C8E00598C46 /* Chamber of Commerce Building.jpg */,
-				B7553D3B22401C8E00598C46 /* Civic Center Park.jpg */,
-				B7553D5522401C9000598C46 /* Cloyne Court Hotel.jpg */,
-				B7553D3622401C8D00598C46 /* Corder Building.jpg */,
-				B7553D6522401C9200598C46 /* Doe Memorial Library.jpg */,
-				B7553D5E22401C9100598C46 /* Eucalyptus Grove.jpg */,
-				B7553D5322401C9000598C46 /* First Church of Christ, Scientist.jpg */,
-				B7553D6322401C9200598C46 /* First Unitarian Church.jpg */,
-				B7553D6122401C9200598C46 /* Founders' Rock.jpg */,
-				B7553D3022401C8D00598C46 /* Gilman Hall.jpg */,
-				B7553D3422401C8D00598C46 /* Golden Sheaf Bakery.jpg */,
-				B7553D4A22401C8F00598C46 /* Grace North Church.jpg */,
-				B7553D2A22401C8C00598C46 /* Haas Pavilion.jpg */,
-				B7553D4C22401C9000598C46 /* Haas School of Business.jpg */,
-				B7553D5422401C9000598C46 /* Haviland Hall.jpg */,
-				B7553D6422401C9200598C46 /* Hearst Greek Theatre.jpg */,
-				B7553D5922401C9100598C46 /* Hearst Memorial Mining Building.jpg */,
-				B7553D3C22401C8E00598C46 /* Hilgard Hall.jpg */,
-				B7553D3522401C8D00598C46 /* Jupiter.jpg */,
-				B7553D4522401C8F00598C46 /* Kress Building.jpg */,
-				B7553D4D22401C9000598C46 /* Masonic Temple.jpg */,
-				B7553D5622401C9000598C46 /* Memorial Glade.jpg */,
-				B7553D3222401C8D00598C46 /* Moe's Books.jpg */,
-				B7553D4822401C8F00598C46 /* Normandy Village.jpg */,
-				B7553D4222401C8E00598C46 /* North Gate Hall.jpg */,
-				B7553D4B22401C8F00598C46 /* Old City Hall.jpg */,
-				B7553D5222401C9000598C46 /* Phoebe A. Hearst Museum of Anthropology.jpg */,
-				B7553D3822401C8E00598C46 /* Phoebe Apperson Hearst Memorial Gymnasium for Women.jpg */,
-				B7553D3D22401C8E00598C46 /* Rae Douglass Gallery.jpg */,
-				B7553D2922401C8C00598C46 /* Rasputin Music.jpg */,
-				B7553D6622401C9200598C46 /* Sather Gate.jpg */,
-				B7553D4E22401C9000598C46 /* Sather Tower.jpg */,
-				B7553D3E22401C8E00598C46 /* South Hall.jpg */,
-				B7553D5722401C9100598C46 /* St. Joseph the Worker Church.jpg */,
-				B7553D5822401C9100598C46 /* St. Mark's Episcopal Church.jpg */,
-				B7553D6222401C9200598C46 /* Studio Building.jpg */,
-				B7553D2C22401C8D00598C46 /* Telegraph Avenue.jpg */,
-				B7553D4922401C8F00598C46 /* Temple of Wings.jpg */,
-				B7553D5022401C9000598C46 /* The Beta Lounge.jpg */,
-				B7553D4322401C8E00598C46 /* Thorsen House.jpg */,
-				B7553D3722401C8E00598C46 /* Triple Rock.jpg */,
-				B7553D2822401C8C00598C46 /* Tupper and Reed Building.jpg */,
-				B7553D6022401C9100598C46 /* University House.jpg */,
-				B7553D5A22401C9100598C46 /* University of California Museum of Paleontology.jpg */,
-				B7553D5B22401C9100598C46 /* Veteran's Memorial Building.jpg */,
-				B7553D5C22401C9100598C46 /* Wellman Hall.jpg */,
-				B7553D5122401C9000598C46 /* Wheeler Hall.jpg */,
+				B7553DC12244E1A900598C46 /* ACCI Gallery.jpg */,
+				B7553DEA2244E1AE00598C46 /* Alphonse Berber Gallery.jpg */,
+				B7553E112244E1B500598C46 /* Amazon Center.jpg */,
+				B7553E0B2244E1B400598C46 /* Amoeba Music.jpg */,
+				B7553DD92244E1AB00598C46 /* Annapurna.jpg */,
+				B7553E0A2244E1B400598C46 /* Bancroft Clothing.jpg */,
+				B7553DC22244E1A900598C46 /* Bear Basics.jpg */,
+				B7553DBE2244E1A900598C46 /* Berkeley Art Center.jpg */,
+				B7553E0D2244E1B400598C46 /* Berkeley Art Museum and Pacific Film Archive.jpg */,
+				B7553DE12244E1AC00598C46 /* Berkeley City Club.jpg */,
+				B7553DE62244E1AD00598C46 /* Berkeley Community Theater.jpg */,
+				B7553DF32244E1B000598C46 /* Berkeley Hat.jpg */,
+				B7553DE02244E1AC00598C46 /* Berkeley Law.jpg */,
+				B7553DFB2244E1B100598C46 /* Berkeley Public Library.jpg */,
+				B7553E0C2244E1B400598C46 /* Big Al's.jpg */,
+				B7553DDB2244E1AC00598C46 /* Bowles Hall.jpg */,
+				B7553DEB2244E1AE00598C46 /* Browns California Cafe.jpg */,
+				B7553DF82244E1B000598C46 /* California Hall.jpg */,
+				B7553DDD2244E1AC00598C46 /* Captain Charles C. Boudrow House.jpg */,
+				B7553DBB2244E1A800598C46 /* Chamber of Commerce Building.jpg */,
+				B7553DE42244E1AD00598C46 /* Civic Center Park.jpg */,
+				B7553DD62244E1AB00598C46 /* Cloyne Court Hotel.jpg */,
+				B7553E0E2244E1B500598C46 /* College of Chemistry.jpg */,
+				B7553DF52244E1B000598C46 /* College of Environmental Design.jpg */,
+				B7553E092244E1B400598C46 /* Corder Building.jpg */,
+				B7553DDA2244E1AC00598C46 /* Cory Hall.jpg */,
+				B7553DD12244E1AA00598C46 /* Crescent Lawn.jpg */,
+				B7553DC32244E1A900598C46 /* Davis Hall.jpg */,
+				B7553DE82244E1AD00598C46 /* Department of Environmental Science.jpg */,
+				B7553DEE2244E1AE00598C46 /* Doe Memorial Library.jpg */,
+				B7553E052244E1B300598C46 /* Dwinelle Hall.jpg */,
+				B7553DC52244E1A900598C46 /* East Asian Library.jpg */,
+				B7553DFC2244E1B100598C46 /* Engineering Student Services.jpg */,
+				B7553E072244E1B300598C46 /* Eucalyptus Grove.jpg */,
+				B7553DBF2244E1A900598C46 /* Evans Hall.jpg */,
+				B7553DE92244E1AD00598C46 /* First Church of Christ, Scientist.jpg */,
+				B7553DF92244E1B000598C46 /* First Unitarian Church.jpg */,
+				B7553DCD2244E1AA00598C46 /* Founders' Rock.jpg */,
+				B7553DE32244E1AD00598C46 /* Gilman Hall.jpg */,
+				B7553DED2244E1AE00598C46 /* Golden Sheaf Bakery.jpg */,
+				B7553DF42244E1B000598C46 /* Grace North Church.jpg */,
+				B7553DE52244E1AD00598C46 /* Haas Pavilion.jpg */,
+				B7553DFE2244E1B100598C46 /* Haas School of Business.jpg */,
+				B7553E062244E1B300598C46 /* Haviland Hall.jpg */,
+				B7553DD52244E1AB00598C46 /* Hearst Greek Theatre.jpg */,
+				B7553DCF2244E1AA00598C46 /* Hearst Memorial Mining Building.jpg */,
+				B7553DDF2244E1AC00598C46 /* Hearst Mining Circle Sculpture.jpg */,
+				B7553DCE2244E1AA00598C46 /* Hilgard Hall.jpg */,
+				B7553DF72244E1B000598C46 /* Jacobs Hall.jpg */,
+				B7553DFD2244E1B100598C46 /* Jupiter.jpg */,
+				B7553E162244E1B600598C46 /* Kress Building.jpg */,
+				B7553DBD2244E1A900598C46 /* Leconte Hall.jpg */,
+				B7553DFF2244E1B200598C46 /* Li Ka Shing Center.jpg */,
+				B7553DC42244E1A900598C46 /* Main Stacks Library.jpg */,
+				B7553DE22244E1AC00598C46 /* Masonic Temple.jpg */,
+				B7553DDE2244E1AC00598C46 /* Memorial Glade.jpg */,
+				B7553DEC2244E1AE00598C46 /* Moe's Books.jpg */,
+				B7553DBC2244E1A900598C46 /* Moffitt Library.jpg */,
+				B7553DC02244E1A900598C46 /* Morgan Hall.jpg */,
+				B7553DD32244E1AB00598C46 /* Normandy Village.jpg */,
+				B7553DF12244E1AF00598C46 /* North Gate Hall.jpg */,
+				B7553E002244E1B200598C46 /* North Gate.jpg */,
+				B7553E142244E1B500598C46 /* Northside Euclid Ave.jpg */,
+				B7553E082244E1B400598C46 /* Old City Hall.jpg */,
+				B7553DD02244E1AA00598C46 /* Phoebe A. Hearst Museum of Anthropology.jpg */,
+				B7553E012244E1B200598C46 /* Phoebe Apperson Hearst Memorial Gymnasium for Women.jpg */,
+				B7553E132244E1B500598C46 /* Pimental Hall.jpg */,
+				B7553E022244E1B200598C46 /* Rae Douglass Gallery.jpg */,
+				B7553E032244E1B300598C46 /* Rasputin Music.jpg */,
+				B7553DD42244E1AB00598C46 /* Sather Gate.jpg */,
+				B7553DC92244E1AA00598C46 /* Sather Tower.jpg */,
+				B7553DD72244E1AB00598C46 /* Soda Hall.jpg */,
+				B7553DEF2244E1AF00598C46 /* South Hall.jpg */,
+				B7553DC62244E1A900598C46 /* Sproul Hall.jpg */,
+				B7553DE72244E1AD00598C46 /* St. Joseph the Worker Church.jpg */,
+				B7553DD22244E1AA00598C46 /* St. Mark's Episcopal Church.jpg */,
+				B7553E152244E1B500598C46 /* Stanley Hall.jpg */,
+				B7553DC72244E1A900598C46 /* Studio Building.jpg */,
+				B7553DF62244E1B000598C46 /* Sutardja Hall.jpg */,
+				B7553E172244E1B600598C46 /* Telegraph Avenue.jpg */,
+				B7553E042244E1B300598C46 /* Temple of Wings.jpg */,
+				B7553E0F2244E1B500598C46 /* The Beta Lounge.jpg */,
+				B7553E122244E1B500598C46 /* Thorsen House.jpg */,
+				B7553DC82244E1A900598C46 /* Triple Rock.jpg */,
+				B7553E182244E1B600598C46 /* Tupper and Reed Building.jpg */,
+				B7553DFA2244E1B100598C46 /* University House.jpg */,
+				B7553DCA2244E1AA00598C46 /* University of California Museum of Paleontology.jpg */,
+				B7553DD82244E1AB00598C46 /* University Seal.jpg */,
+				B7553DCB2244E1AA00598C46 /* Valley Life Sciences Building.jpg */,
+				B7553DCC2244E1AA00598C46 /* Veteran's Memorial Building.jpg */,
+				B7553DDC2244E1AC00598C46 /* VLSB Echo Bench.jpg */,
+				B7553DF22244E1AF00598C46 /* Wellman Hall.jpg */,
+				B7553DF02244E1AF00598C46 /* Westside Downtown Berkeley.jpg */,
+				B7553E102244E1B500598C46 /* Wheeler Hall.jpg */,
 			);
 			path = imgs;
 			sourceTree = "<group>";
@@ -328,73 +424,105 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7553D8922401C9200598C46 /* Grace North Church.jpg in Resources */,
-				B7553D9A22401C9200598C46 /* Veteran's Memorial Building.jpg in Resources */,
-				B7553D7822401C9200598C46 /* Berkeley Community Theater.jpg in Resources */,
+				B7553E192244E1B600598C46 /* Chamber of Commerce Building.jpg in Resources */,
+				B7553E532244E1B600598C46 /* College of Environmental Design.jpg in Resources */,
+				B7553E732244E1B600598C46 /* Stanley Hall.jpg in Resources */,
+				B7553E392244E1B600598C46 /* Bowles Hall.jpg in Resources */,
+				B7553E3B2244E1B600598C46 /* Captain Charles C. Boudrow House.jpg in Resources */,
+				B7553E452244E1B600598C46 /* St. Joseph the Worker Church.jpg in Resources */,
+				B7553E412244E1B600598C46 /* Gilman Hall.jpg in Resources */,
+				B7553E302244E1B600598C46 /* St. Mark's Episcopal Church.jpg in Resources */,
+				B7553E2F2244E1B600598C46 /* Crescent Lawn.jpg in Resources */,
+				B7553E1C2244E1B600598C46 /* Berkeley Art Center.jpg in Resources */,
+				B7553E4D2244E1B600598C46 /* South Hall.jpg in Resources */,
+				B7553E1D2244E1B600598C46 /* Evans Hall.jpg in Resources */,
+				B7553E222244E1B600598C46 /* Main Stacks Library.jpg in Resources */,
+				B7553E6D2244E1B600598C46 /* The Beta Lounge.jpg in Resources */,
+				B7553E722244E1B600598C46 /* Northside Euclid Ave.jpg in Resources */,
+				B7553E622244E1B600598C46 /* Temple of Wings.jpg in Resources */,
+				B7553E652244E1B600598C46 /* Eucalyptus Grove.jpg in Resources */,
+				B7553E2E2244E1B600598C46 /* Phoebe A. Hearst Museum of Anthropology.jpg in Resources */,
+				B7553E242244E1B600598C46 /* Sproul Hall.jpg in Resources */,
+				B7553E592244E1B600598C46 /* Berkeley Public Library.jpg in Resources */,
+				B7553E632244E1B600598C46 /* Dwinelle Hall.jpg in Resources */,
+				B7553E332244E1B600598C46 /* Hearst Greek Theatre.jpg in Resources */,
+				B7553E322244E1B600598C46 /* Sather Gate.jpg in Resources */,
 				B7553D16223F329B00598C46 /* LaunchScreen.storyboard in Resources */,
-				B7553D7722401C9200598C46 /* Phoebe Apperson Hearst Memorial Gymnasium for Women.jpg in Resources */,
-				B7553D9D22401C9200598C46 /* Eucalyptus Grove.jpg in Resources */,
-				B7553D8022401C9200598C46 /* Bear Basics.jpg in Resources */,
-				B7553D8822401C9200598C46 /* Temple of Wings.jpg in Resources */,
-				B7553D7022401C9200598C46 /* Bancroft Clothing.jpg in Resources */,
+				B7553E1A2244E1B600598C46 /* Moffitt Library.jpg in Resources */,
+				B7553E372244E1B600598C46 /* Annapurna.jpg in Resources */,
+				B7553E572244E1B600598C46 /* First Unitarian Church.jpg in Resources */,
+				B7553E752244E1B600598C46 /* Telegraph Avenue.jpg in Resources */,
 				B7553D13223F329B00598C46 /* Assets.xcassets in Resources */,
-				B7553D6F22401C9200598C46 /* Gilman Hall.jpg in Resources */,
-				B7553D8422401C9200598C46 /* Kress Building.jpg in Resources */,
-				B7553D9622401C9200598C46 /* St. Joseph the Worker Church.jpg in Resources */,
-				B7553D8222401C9200598C46 /* Thorsen House.jpg in Resources */,
-				B7553D8622401C9200598C46 /* Berkeley Art Center.jpg in Resources */,
-				B7553D7222401C9200598C46 /* Big Al's.jpg in Resources */,
-				B7553D9B22401C9200598C46 /* Wellman Hall.jpg in Resources */,
-				B7553D8F22401C9200598C46 /* The Beta Lounge.jpg in Resources */,
-				B7553D8122401C9200598C46 /* North Gate Hall.jpg in Resources */,
-				B7553D6922401C9200598C46 /* Haas Pavilion.jpg in Resources */,
-				B7553D8522401C9200598C46 /* Annapurna.jpg in Resources */,
-				B7553D6C22401C9200598C46 /* California Hall.jpg in Resources */,
-				B7553D9C22401C9200598C46 /* Berkeley Art Museum and Pacific Film Archive.jpg in Resources */,
-				B7553D9922401C9200598C46 /* University of California Museum of Paleontology.jpg in Resources */,
-				B7553D6822401C9200598C46 /* Rasputin Music.jpg in Resources */,
-				B7553DA222401C9200598C46 /* First Unitarian Church.jpg in Resources */,
-				B7553D6E22401C9200598C46 /* Berkeley Public Library.jpg in Resources */,
-				B7553D6D22401C9200598C46 /* Bowles Hall.jpg in Resources */,
-				B7553D7522401C9200598C46 /* Corder Building.jpg in Resources */,
-				B7553D9722401C9200598C46 /* St. Mark's Episcopal Church.jpg in Resources */,
-				B7553D9022401C9200598C46 /* Wheeler Hall.jpg in Resources */,
-				B7553D6A22401C9200598C46 /* Captain Charles C. Boudrow House.jpg in Resources */,
-				B7553D9422401C9200598C46 /* Cloyne Court Hotel.jpg in Resources */,
-				B7553D7422401C9200598C46 /* Jupiter.jpg in Resources */,
-				B7553D7622401C9200598C46 /* Triple Rock.jpg in Resources */,
-				B7553D6722401C9200598C46 /* Tupper and Reed Building.jpg in Resources */,
-				B7553D9322401C9200598C46 /* Haviland Hall.jpg in Resources */,
-				B7553D8A22401C9200598C46 /* Old City Hall.jpg in Resources */,
-				B7553D7D22401C9200598C46 /* South Hall.jpg in Resources */,
-				B7553D7A22401C9200598C46 /* Civic Center Park.jpg in Resources */,
-				B7553D7322401C9200598C46 /* Golden Sheaf Bakery.jpg in Resources */,
-				B7553DA522401C9200598C46 /* Sather Gate.jpg in Resources */,
-				B7553D7C22401C9200598C46 /* Rae Douglass Gallery.jpg in Resources */,
-				B7553D8B22401C9200598C46 /* Haas School of Business.jpg in Resources */,
-				B7553D8E22401C9200598C46 /* ACCI Gallery.jpg in Resources */,
-				B7553D9E22401C9200598C46 /* Berkeley City Club.jpg in Resources */,
-				B7553D8D22401C9200598C46 /* Sather Tower.jpg in Resources */,
-				B7553D7B22401C9200598C46 /* Hilgard Hall.jpg in Resources */,
-				B7553D8C22401C9200598C46 /* Masonic Temple.jpg in Resources */,
-				B7553D8722401C9200598C46 /* Normandy Village.jpg in Resources */,
+				B7553E662244E1B600598C46 /* Old City Hall.jpg in Resources */,
+				B7553E782244E20000598C46 /* optimalList.json in Resources */,
+				B7553E422244E1B600598C46 /* Civic Center Park.jpg in Resources */,
+				B7553E3D2244E1B600598C46 /* Hearst Mining Circle Sculpture.jpg in Resources */,
+				B7553E762244E1B600598C46 /* Tupper and Reed Building.jpg in Resources */,
+				B7553E5C2244E1B600598C46 /* Haas School of Business.jpg in Resources */,
+				B7553E602244E1B600598C46 /* Rae Douglass Gallery.jpg in Resources */,
+				B7553E492244E1B600598C46 /* Browns California Cafe.jpg in Resources */,
+				B7553E562244E1B600598C46 /* California Hall.jpg in Resources */,
+				B7553E552244E1B600598C46 /* Jacobs Hall.jpg in Resources */,
+				B7553E232244E1B600598C46 /* East Asian Library.jpg in Resources */,
+				B7553E3E2244E1B600598C46 /* Berkeley Law.jpg in Resources */,
+				B7553E5D2244E1B600598C46 /* Li Ka Shing Center.jpg in Resources */,
+				B7553E482244E1B600598C46 /* Alphonse Berber Gallery.jpg in Resources */,
+				B7553E512244E1B600598C46 /* Berkeley Hat.jpg in Resources */,
+				B7553E262244E1B600598C46 /* Triple Rock.jpg in Resources */,
+				B7553E6C2244E1B600598C46 /* College of Chemistry.jpg in Resources */,
+				B7553E712244E1B600598C46 /* Pimental Hall.jpg in Resources */,
+				B7553E1B2244E1B600598C46 /* Leconte Hall.jpg in Resources */,
+				B7553E692244E1B600598C46 /* Amoeba Music.jpg in Resources */,
+				B7553E3A2244E1B600598C46 /* VLSB Echo Bench.jpg in Resources */,
+				B7553E3C2244E1B600598C46 /* Memorial Glade.jpg in Resources */,
+				B7553E542244E1B600598C46 /* Sutardja Hall.jpg in Resources */,
+				B7553E2C2244E1B600598C46 /* Hilgard Hall.jpg in Resources */,
+				B7553E5E2244E1B600598C46 /* North Gate.jpg in Resources */,
+				B7553E6A2244E1B600598C46 /* Big Al's.jpg in Resources */,
+				B7553E5F2244E1B600598C46 /* Phoebe Apperson Hearst Memorial Gymnasium for Women.jpg in Resources */,
+				B7553E462244E1B600598C46 /* Department of Environmental Science.jpg in Resources */,
 				B7553D11223F329900598C46 /* Main.storyboard in Resources */,
-				B7553DA422401C9200598C46 /* Doe Memorial Library.jpg in Resources */,
-				B7553D7F22401C9200598C46 /* Chamber of Commerce Building.jpg in Resources */,
-				B7553DA322401C9200598C46 /* Hearst Greek Theatre.jpg in Resources */,
-				B7553D6B22401C9200598C46 /* Telegraph Avenue.jpg in Resources */,
+				B7553E6B2244E1B600598C46 /* Berkeley Art Museum and Pacific Film Archive.jpg in Resources */,
+				B7553E312244E1B600598C46 /* Normandy Village.jpg in Resources */,
+				B7553E5A2244E1B600598C46 /* Engineering Student Services.jpg in Resources */,
+				B7553E702244E1B600598C46 /* Thorsen House.jpg in Resources */,
+				B7553E402244E1B600598C46 /* Masonic Temple.jpg in Resources */,
+				B7553E272244E1B600598C46 /* Sather Tower.jpg in Resources */,
 				B7553D24223F6B3300598C46 /* data.json in Resources */,
-				B7553D9522401C9200598C46 /* Memorial Glade.jpg in Resources */,
-				B7553DA022401C9200598C46 /* Founders' Rock.jpg in Resources */,
-				B7553D8322401C9200598C46 /* Amoeba Music.jpg in Resources */,
-				B7553D9F22401C9200598C46 /* University House.jpg in Resources */,
-				B7553D7922401C9200598C46 /* Alphonse Berber Gallery.jpg in Resources */,
-				B7553D7122401C9200598C46 /* Moe's Books.jpg in Resources */,
-				B7553D9222401C9200598C46 /* First Church of Christ, Scientist.jpg in Resources */,
-				B7553D9822401C9200598C46 /* Hearst Memorial Mining Building.jpg in Resources */,
-				B7553DA122401C9200598C46 /* Studio Building.jpg in Resources */,
-				B7553D9122401C9200598C46 /* Phoebe A. Hearst Museum of Anthropology.jpg in Resources */,
-				B7553D7E22401C9200598C46 /* Berkeley Hat.jpg in Resources */,
+				B7553E672244E1B600598C46 /* Corder Building.jpg in Resources */,
+				B7553E502244E1B600598C46 /* Wellman Hall.jpg in Resources */,
+				B7553E612244E1B600598C46 /* Rasputin Music.jpg in Resources */,
+				B7553E4A2244E1B600598C46 /* Moe's Books.jpg in Resources */,
+				B7553E362244E1B600598C46 /* University Seal.jpg in Resources */,
+				B7553E582244E1B600598C46 /* University House.jpg in Resources */,
+				B7553E642244E1B600598C46 /* Haviland Hall.jpg in Resources */,
+				B7553E5B2244E1B600598C46 /* Jupiter.jpg in Resources */,
+				B7553E4B2244E1B600598C46 /* Golden Sheaf Bakery.jpg in Resources */,
+				B7553E202244E1B600598C46 /* Bear Basics.jpg in Resources */,
+				B7553E432244E1B600598C46 /* Haas Pavilion.jpg in Resources */,
+				B7553E442244E1B600598C46 /* Berkeley Community Theater.jpg in Resources */,
+				B7553E1F2244E1B600598C46 /* ACCI Gallery.jpg in Resources */,
+				B7553E1E2244E1B600598C46 /* Morgan Hall.jpg in Resources */,
+				B7553E472244E1B600598C46 /* First Church of Christ, Scientist.jpg in Resources */,
+				B7553E382244E1B600598C46 /* Cory Hall.jpg in Resources */,
+				B7553E352244E1B600598C46 /* Soda Hall.jpg in Resources */,
+				B7553E522244E1B600598C46 /* Grace North Church.jpg in Resources */,
+				B7553E682244E1B600598C46 /* Bancroft Clothing.jpg in Resources */,
+				B7553E342244E1B600598C46 /* Cloyne Court Hotel.jpg in Resources */,
+				B7553E3F2244E1B600598C46 /* Berkeley City Club.jpg in Resources */,
+				B7553E252244E1B600598C46 /* Studio Building.jpg in Resources */,
+				B7553E4E2244E1B600598C46 /* Westside Downtown Berkeley.jpg in Resources */,
+				B7553E4F2244E1B600598C46 /* North Gate Hall.jpg in Resources */,
+				B7553E2D2244E1B600598C46 /* Hearst Memorial Mining Building.jpg in Resources */,
+				B7553E742244E1B600598C46 /* Kress Building.jpg in Resources */,
+				B7553E4C2244E1B600598C46 /* Doe Memorial Library.jpg in Resources */,
+				B7553E6E2244E1B600598C46 /* Wheeler Hall.jpg in Resources */,
+				B7553E6F2244E1B600598C46 /* Amazon Center.jpg in Resources */,
+				B7553E2B2244E1B600598C46 /* Founders' Rock.jpg in Resources */,
+				B7553E292244E1B600598C46 /* Valley Life Sciences Building.jpg in Resources */,
+				B7553E2A2244E1B600598C46 /* Veteran's Memorial Building.jpg in Resources */,
+				B7553E212244E1B600598C46 /* Davis Hall.jpg in Resources */,
+				B7553E282244E1B600598C46 /* University of California Museum of Paleontology.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
