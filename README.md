@@ -14,3 +14,5 @@ Sample Images:
 </table>
 
 This app was developed in Swift while storing and encoding the points of interest in JSON. I utilized PageViewController to display the various points of interest while following the model-view-controller design pattern.
+
+Credits to [GPSmyCity](https://www.gpsmycity.com/)
